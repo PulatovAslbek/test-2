@@ -1,0 +1,36 @@
+*,
+*::after,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+
+}
+
+.item {
+
+    margin-right: 15px;
+}
+
+.link {
+    display: inline-block;
+    background-color: teal; 
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+}
